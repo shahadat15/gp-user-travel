@@ -2,8 +2,6 @@ from flask import Flask
 
 import folium
 import pandas as pd
-import geopandas as gpd
-import requests
 from collections import defaultdict
 
 app = Flask(__name__)
